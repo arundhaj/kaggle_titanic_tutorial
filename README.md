@@ -1,4 +1,4 @@
-kaggle_titanic_tutorial
+kaggle titanic tutorial
 =======================
 
 kaggle tutorial competition. 
