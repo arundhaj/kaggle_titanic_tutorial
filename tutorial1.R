@@ -1,0 +1,6 @@
+setwd("/media/arun/myprojects/scm_github/kaggle_titanic/")
+train <- read.csv("/media/arun/myprojects/scm_github/kaggle_titanic/train.csv")
+test <- read.csv("/media/arun/myprojects/scm_github/kaggle_titanic/test.csv")
+# str(train)
+submit <- data.frame(PassengerId = test$PassengerId, Survived = test$Survived)
+write.csv(submit, file = "theyallperish.csv", row.names = FALSE)
